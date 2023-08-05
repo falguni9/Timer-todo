@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+🎊 Welcome to your Test Task!
+this is an interview question check it out below !
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+● This is a test task for you. The challenge is to develop a simple Time-Tracking Application, so we
+can understand how you write code and approach the solution.
+● For this purpose, one customer has defined some user stories. It's up to you how the features are
+implemented as long as they make customers happy.
 
-## Available Scripts
+⚒️ How to do it?
+● Preferred would be the usage of React in the front end.
+● For styling purposes, you can use Bootstrap/React-Bootstrap, TailwindCSS, CSS, CSS Modules, or
+any other CSS library of your choice.
+● You can create a README.md file to explain your solution if you want.
+● You should not be using any package/library apart from styling purposes.
+● Do not include node_modules in the zip, and should not copy functionality from the internet.
 
-In the project directory, you can run:
+🤩 Features
+There should be two sections
+1. Timer Section
+2. Tasks Section
+⏰ Timer Section
+- It includes a digital clock and three buttons.
+- Digital Clock should show timer time in HH:mm:ss format (like a stopwatch in your smartphone).
+- Three buttons should be there Start, Pause and Save
+- Start - Start the timer
+- Pause - Pause the timer
+- Save - Save the task
+- The timer can be in three stages
+- Started Stage - timer is started, only Pause and Save buttons should be enabled, Start
+button should become disabled
+- Paused Staged - Timer is paused, only the Save and Start buttons should be enabled,
+Pause button should become disabled
+- Save Staged - timer along with task details should be saved
+- When Save is clicked, one modal should be opened to save the task.
+- Modal should be having two fields, Title, and Description
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Modal should be having two buttons, Save and Cancel
+- When timer task is saved (Save button clicked), modal should be closed and task should be
+added to the list
+⛑️ Tasks Section
+- Should show a list of saved tasks.
+- List should show Task Title & Time Tracked in HH:mm:ss format.
+✴️ Plus Points
+- You can add extra functionality for Editing Task description by clicking on task/edit button on
+the task.
+- An edit modal should be opened, where the user can only edit the description and click on Save
+to save the task.
